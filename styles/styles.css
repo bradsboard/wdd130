@@ -25,6 +25,7 @@ p { padding: 0;}
 main {
     max-width: 840px;
     text-align: center;
+    margin: auto;
     background-color: rgb(254,251,241);
 }
 

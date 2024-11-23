@@ -21,7 +21,7 @@ a {
 header {
     font-family: "Raleway", serif;
     font-weight: 400;
-    background-color: #a4b0f5;
+    background-color: var(--accent1-color);
 }
 
 header nav {
@@ -30,7 +30,7 @@ header nav {
     padding-bottom: 40px;
     padding-left: 350px;
     margin: auto;
-    color:var( #7d4600);
+    color:var(--accent2-color);
     display: block;
     
 }

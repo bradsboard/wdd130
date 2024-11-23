@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --primary-color:#4464ad;
+    --secondary-color:#f58f29;
+    --accent1-color:#a4b0f5;
+    --accent2-color:#7d4600;
+    --background-color:rgb(255, 250, 243)
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    background-color: #a4b0f5;
+}
+
+header nav {
+
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 350px;
+    margin: auto;
+    color:var( #7d4600);
+    display: block;
+    
+}
+
+header img {
+    float: left;
+    
+}
+
+
+body {
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    color:var(--accent2-color);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+
+.hero {
+    position: relative;
+    top: 100px;
+    margin: 10px auto;
+
+}
+
+.hero img  {
+    display:block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+
+.box {
+    position: absolute;
+    width: 20rem;
+    margin:auto;
+    top: 200px;
+    left: 220px;
+    background-color: #a4b0f5;
+
+}
+
+.box img {
+    float: right;
+    width: 150px;
+    padding: 10px;
+}
+
+
+h1 {
+    font-family: "Parkinsans", serif;
+    font-weight: 600;
+    color: var(--primary-color);
+    position: absolute;
+    top: 10px;
+    left:13rem;
+    background-color: #f58f29;
+    opacity: .9;
+    
+}
+
+h2 {
+    font-family: "Parkinsans", serif;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+
+footer{
+    text-align: left;
+}
+
+footer img {
+    float: right;
+    margin: 1rem;
+
+}

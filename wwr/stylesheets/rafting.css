@@ -71,7 +71,8 @@ body {
     width: 20rem;
     margin:auto;
     top: 200px;
-    left: 220px;
+    right: 35%;
+    left: 35%;
     background-color: #a4b0f5;
 
 }
@@ -89,7 +90,8 @@ h1 {
     color: var(--primary-color);
     position: absolute;
     top: 10px;
-    left:13rem;
+    right: 35%;
+    left:35%;
     background-color: #f58f29;
     opacity: .9;
     

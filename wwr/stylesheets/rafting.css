@@ -22,21 +22,27 @@ header {
     font-family: "Raleway", serif;
     font-weight: 400;
     background-color: var(--accent1-color);
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr;
+    align-items:center;
+    justify-content: space-between;
 }
 
 header nav {
 
-    padding-top: 60px;
-    padding-bottom: 40px;
-    padding-left: 350px;
-    margin: auto;
+    
     color:var(--accent2-color);
-    display: block;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
     
 }
 
 header img {
-    float: left;
+    display:grid;
+    grid-column-start: 2;
+    grid-template-columns: repeat(auto-fill, );
     
 }
 
@@ -47,7 +53,6 @@ body {
     color:var(--accent2-color);
     background-color: rgb(255, 255, 255);
     text-align: center;
-
 }
 
 
@@ -104,12 +109,34 @@ h2 {
 }
 
 
-footer{
-    text-align: left;
-}
+.lower_display {
+    display:flex;
+    flex-wrap: wrap;
 
-footer img {
-    float: right;
-    margin: 1rem;
+    justify-items: center;
 
 }
+
+
+.promotion {
+    display: flex;
+
+
+}
+
+figure {
+    border: thin black solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+    
+}
+
+.footer-box{
+    display: flex;
+    justify-content: end;
+}
+
+

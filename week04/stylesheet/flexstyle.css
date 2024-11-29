@@ -1,5 +1,6 @@
 .flexbot-container {
     display: flex;
+    justify-content: center;
 }
 
 .flexbot-item {

@@ -110,10 +110,8 @@ h2 {
 
 
 .lower_display {
-    display:flex;
-    flex-wrap: wrap;
-
-    justify-items: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
 
 }
 
@@ -124,19 +122,30 @@ h2 {
 
 }
 
-figure {
-    border: thin black solid;
+figcaption {
+    text-align: center;
+}
+
+.figure-flex {
+
     display: flex;
-    flex-flow: column;
-    padding: 5px;
-    max-width: 220px;
-    margin: auto;
-    
+}
+
+figure img {
+    width: 150px;
 }
 
 .footer-box{
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    
+}
+
+footer nav{
+    display: flex;
+    justify-content:space-between;
+    margin: 10px;
+    padding-left: 1em;
 }
 
 

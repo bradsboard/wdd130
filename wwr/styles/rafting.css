@@ -42,7 +42,7 @@ header nav {
 header img {
     display:grid;
     grid-column-start: 2;
-    grid-template-columns: repeat(auto-fill, );
+    
     
 }
 
@@ -73,11 +73,11 @@ body {
 
 .box {
     position: absolute;
-    width: 20rem;
+    width: 80%;
     margin:auto;
     top: 200px;
-    right: 35%;
-    left: 35%;
+    right: 0;
+    left: 0;
     background-color: #a4b0f5;
 
 }
@@ -108,18 +108,27 @@ h2 {
     color: var(--primary-color);
 }
 
-
-.lower_display {
-    padding-top: 200px;
-    padding-bottom: 100px;
-
+.history {
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
 }
 
+.history h2 {
+    grid-column: 1/4;
+}
 
-.promotion {
-    display: flex;
+.history p1 {
+    grid-column: 1/2;
+}
 
+.history img{
+    grid-column: 2/3;
+    width: 100%;
+}
 
+.history p2 {
+    grid-column: 3/4;
 }
 
 figcaption {
@@ -129,10 +138,12 @@ figcaption {
 .figure-flex {
 
     display: flex;
+    justify-content: space-around;
+    padding-top: 75px;
 }
 
 figure img {
-    width: 150px;
+    width: 90%;
 }
 
 .footer-box{
@@ -143,7 +154,8 @@ figure img {
 
 footer nav{
     display: flex;
-    justify-content:space-between;
+    justify-content:end;
+
     margin: 10px;
     padding-left: 1em;
 }

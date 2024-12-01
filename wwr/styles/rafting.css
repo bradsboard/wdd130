@@ -118,7 +118,7 @@ h2 {
     grid-column: 1/4;
 }
 
-.history p1 {
+.history p {
     grid-column: 1/2;
 }
 
@@ -127,7 +127,7 @@ h2 {
     width: 100%;
 }
 
-.history p2 {
+p.second {
     grid-column: 3/4;
 }
 

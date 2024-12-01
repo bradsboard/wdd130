@@ -111,7 +111,7 @@ h2 {
 .history {
     padding: 100px;
     display: grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 35% 30% 35%;
 }
 
 .history h2 {

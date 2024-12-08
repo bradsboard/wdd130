@@ -72,7 +72,7 @@ figcaption {
 }
 
 form{
-    width: 600px;
+    width: 650px;
     margin: auto;
     padding: 20px;
     background-color:#eee
@@ -80,12 +80,25 @@ form{
 }
 
 .form-item{
-    padding: 15px;
+    padding: 10px;
 }
 
 
+label {
+    padding: 10px;
+}
+
+input [type="radio"]{
+    margin: 1rem;
+}
+
 button {
     padding: 5px;
+    color: #00158f;
+}
+
+button.hover {
+    background-color: #c1c9f8;
 }
 
 .foot{
